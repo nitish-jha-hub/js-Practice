@@ -1,0 +1,1 @@
+// prompt("Enter your age")  //Not run code because it is browser things
