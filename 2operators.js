@@ -1,4 +1,14 @@
 // +, - , *, / is js arithmatic operators
+// **,% exponential operator,modulus operator
+
+// incremental operaotor and decremental operator
+// let a = 11;
+// console.log("a=",a);
+// console.log("a=",++a);
+// console.log("a=",a++);
+// console.log("a=",--a);
+// console.log("a=",a--);
+// console.log("a=",a);
 
 
 // assignment operators
@@ -9,9 +19,11 @@
 // console.log(c);
 
 // comparision operators
+// === same type and value, != not equal to ,!==no equal value or type,>,<
 // let x = 667;
-// let y = 7678;
+// let y = "667";
 // console.log(x == y);
+// console.log(x === y);
 // console.log(x <= y); //boolean return
 
 // logical operators
