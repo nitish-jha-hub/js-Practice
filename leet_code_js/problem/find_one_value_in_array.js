@@ -11,5 +11,5 @@ for (let index = 0; index < array.length; index++) {
 }
 if (!flag) {
     console.log(flag)
-    console.log("no value fount in this array");
+    console.log("no value found in this array");
 }

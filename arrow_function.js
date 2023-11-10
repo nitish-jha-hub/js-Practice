@@ -12,5 +12,13 @@
 
 // console.log(add(2,3),greet(),greet_name("nitish"));
 
-let b = a => console.log(a)
-b(15)
+// let b = a => console.log(a)
+// b(15)
+
+// self invoke/ auto run function just after declaration
+a = 11;
+b=3;
+((x,y) => {
+    b=x*y;
+    console.log("Hello,World",b)
+})(a,b);
