@@ -67,5 +67,5 @@ const data = {name, email, phone, roll, section, gender, password};
 console.log(data,typeof(data));
 
 // object spread (ES6) //concat two oject //replace value with later ones if any key is same
-const updatedUser = {...data,...Nitish}
+const updatedUser = {...data,...Nitish}   //In JavaScript, the ... operator is called the spread operator. used to join two array object etc
 console.log(updatedUser);

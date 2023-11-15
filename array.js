@@ -3,14 +3,14 @@ b="sdsds"
 console.log(a);
 
 // access array elements
-console.log(a[0]);
+// console.log(a[0]);
 // js does not suppert -ve indexing to access elements for -ve indexing we can use array.at(-1) method
 // console.log(a[-1]);
-console.log(a.at(-1));
+// console.log(a.at(-1));
 
 
 // console.log(typeof(a[0]));
-// console.log(typeof(a), Array.isArray(a));    //why it shows object instead of an array
+console.log(typeof(a), Array.isArray(a));    //why it shows object instead of an array
 
 // aray methods
 
@@ -42,3 +42,9 @@ console.log(a.at(-1));
 // array to string
 // let str = a.toString();
 // console.log(str)
+
+//convert array to string and vice versa
+// let x = a.join("-");
+// console.log(x,typeof(x));
+// let y = x.split("-");
+// console.log(y,typeof(y),y[3])
