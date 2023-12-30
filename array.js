@@ -1,6 +1,6 @@
 let a=[2, 3, 4, 5, 6];
-b="sdsds"
-console.log(a);
+// b="sdsds"
+// console.log(a);
 
 // access array elements
 // console.log(a[0]);
@@ -10,7 +10,7 @@ console.log(a);
 
 
 // console.log(typeof(a[0]));
-console.log(typeof(a), Array.isArray(a));    //why it shows object instead of an array
+// console.log(typeof(a), Array.isArray(a));    //why it shows object instead of an array
 
 // aray methods
 
@@ -48,3 +48,8 @@ console.log(typeof(a), Array.isArray(a));    //why it shows object instead of an
 // console.log(x,typeof(x));
 // let y = x.split("-");
 // console.log(y,typeof(y),y[3])
+
+
+//map function
+let c = a.map((val,index)=>{return val+index})
+console.log(c)
